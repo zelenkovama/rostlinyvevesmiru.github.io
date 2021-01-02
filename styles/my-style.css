@@ -1,0 +1,117 @@
+body{
+    background-color: #0C152B;
+    color: #efefff;
+    min-height: 100%;
+    margin: 0;
+    max-width: 100%;
+}
+.allbutfooter{
+    min-height: calc(100vh - 60px);
+}
+footer{
+    min-height: 60px;
+    position: absolute;
+}
+.bg-purp{
+    background-color: #3BAA1F;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.navfont{
+    font-family: "Oxygen Mono", "Open Sans", Courier;
+}
+.foooter{
+    text-align: center;
+    font-family: "Oxygen Mono", "Open Sans", Courier;
+    font-size: 12px;
+    letter-spacing: 3px;
+    height: 60px;
+    padding-top: 20px;
+}
+img{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-height: 700px;
+    z-index: -1;
+    min-width: 250px;
+}
+.imagesm{
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px  #2b3042;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3baa1f;
+    border-radius: 10px;
+  }
+  .nameofweb{
+      font-size: 30px;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-family: "Oxygen Mono", "Open Sans", Courier;
+}
+p{
+    font-family: "Open Sans", Courier;
+}
+.txtpurp{
+    background-color: #3BAA1F10;
+    border: solid 2px #3BAA1F;
+    border-radius: 45px;
+    padding: 15px;
+    margin: 20px;
+    min-width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.morebut{
+    background-color: #3BAA1F;
+    font-family: "Oxygen Mono", "Open Sans", Courier;
+    padding: 10px;
+    border-radius: 45px;
+    text-decoration: none;
+    color: #efefff;
+}
+.morebut:hover, .morebut:active{
+    background-color: #144906;
+    color: #efefff;
+}
+.txtxt{
+    background-color: #3BAA1F10;
+    border: solid 2px #3BAA1F;
+    border-radius: 45px;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.goback{
+    background-color: #3BAA1F;
+    font-family: "Oxygen Mono", "Open Sans", Courier;
+    padding: 10px;
+    border-radius: 45px;
+    text-decoration: none;
+    color: #efefff;
+    padding-left: 15px;
+}
+.goback:hover, .goback:active{
+    background-color: #144906;
+    color: #efefff;
+}
+.aboutus{
+    background-color: #3BAA1F10;
+    border: solid 2px #3BAA1F;
+    border-radius: 45px;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.sourceslinks{
+    word-break: break-all;
+}
